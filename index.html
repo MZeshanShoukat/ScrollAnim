@@ -1,64 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3 scroll effect</title>
+
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-</head>
-<body>
-    
-    <div class="wrapper">
-        <p>Your Text Here !!!</p>
-        
-        <img class="continent" id="c1p1" src="assets/img/c1p9.png">
-        <img class="continent" id="c1p2" src="assets/img/c1p8.png">
-        <img class="continent" id="c1p3" src="assets/img/c1p7.png">
-        <img class="continent" id="c1p4" src="assets/img/c1p6.png">
-        <img class="continent" id="c1p5" src="assets/img/c1p5.png">
-        <img class="continent" id="c1p6" src="assets/img/c1p4.png">
-        <img class="continent" id="c1p7" src="assets/img/c1p3.png">
-        <img class="continent" id="c1p8" src="assets/img/c1ppp2.png">
-        <img class="continent" id="c1p9" src="assets/img/c1p1.png">
-        <img class="continent" id="c1pp10" src="assets/img/c1pp10.png">
-        <img class="continent" id="c1ppp10" src="assets/img/c1ppp10.png">
-        <!-- continent 1 is completed-->
-        <img class="continent" id="c5p1" src="assets/img/c5p1.png">
-        <!-- continent 2 is completed -->
-        <img class="continent" id="c3p1" src="assets/img/c3p1.png">
-        <!-- continent 3 is completed -->
-        <img class="continent" id="c2p1" src="assets/img/c2p1.png">
-        <!-- continent 4 is completed -->
-        <img class="continent" id="c4p1" src="assets/img/c4p1.png">
-    
+    <title>3 scroll effect</title>
+  </head>
+  <body>
+    <div id="custom-anim">
+      <p>Your Text Here !!!</p>
+
+      <div id="cont-section">
+        <div id="cont-wrapper">
+            <img class="continent" id="c1p1" src="assets/img/c1p9.png">
+            <img class="continent" id="c1p2" src="assets/img/c1p8.png">
+            <img class="continent" id="c1p3" src="assets/img/c1p7.png">
+            <img class="continent" id="c1p4" src="assets/img/c1p6.png">
+            <img class="continent" id="c1p5" src="assets/img/c1p5.png">
+            <img class="continent" id="c1p6" src="assets/img/c1p4.png">
+            <img class="continent" id="c1p7" src="assets/img/c1p3.png">
+            <img class="continent" id="c1p8" src="assets/img/c1ppp2.png">
+            <img class="continent" id="c1p9" src="assets/img/c1p1.png">
+            <img class="continent" id="c1pp10" src="assets/img/c1pp10.png">
+            <img class="continent" id="c1ppp10" src="assets/img/c1ppp10.png">
+            <img class="continent" id="c5p1" src="assets/img/c5p1.png">
+            <img class="continent" id="c3p1" src="assets/img/c3p1.png">
+            <img class="continent" id="c2p1" src="assets/img/c2p1.png">
+            <img class="continent" id="c4p1" src="assets/img/c4p1.png">
+        </div>
+      </div>
     </div>
-    
-<script>
-
-$(document).ready(function(){
-    $(document).scroll(function(){
-        var x = $(document).scrollTop();
-        $('#c1p1').css("transform", `translate(${(x/52) - 20}px, ${-x/30 - 50}px) rotate(${-x/500}deg)`);
-        $('#c1p2').css("transform", `translate(${(x)/50 + 100}px, ${((-x)/40) - 120}px) rotate(${x/x - 12}deg)`);
-        $('#c1p3').css("transform", `translate(${(x)/50 + 25}px, ${((-x)/38) - 50}px) rotate(15deg)`);
-        $('#c1p4').css("transform", `translate(${(x)/40 + 80}px, ${((-x)/43) + 30}px) rotate(${x/500}deg)`);
-        $('#c1p5').css("transform", `translate(${(x)/28 - 50}px, ${((-x)/33) - 30}px) rotate(${-x/100}deg)`);
-
-        // console.log(x);
-    });
-});
-// ======= TIP ========
-// IN the above code
-// you are seeing ${(x)/1st no +- 2nd no }
-//  1. if you want to set the initial x-axis or y-axis play with 1st no.
-//  2. if you want to set final position of img along x-axis or y-axis use 2nd no.
-//  set rotate attribute of your own
-  
-
-</script>    
-
-</body>
+    <script src="assets/js/origin_states.js"></script>    
+    <script src="assets/js/animator.js"></script>    
+  </body>
 </html>
