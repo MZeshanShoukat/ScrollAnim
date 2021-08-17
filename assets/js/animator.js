@@ -4,6 +4,7 @@ let putState = (state) => {
     el.style.left = item.x;
     el.style.top = item.y;
     el.style.width = item.width;
+    el.style.transform = 'rotate(' + item.rotate + ')';
   }
 };
 
