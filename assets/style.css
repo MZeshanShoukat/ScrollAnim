@@ -60,4 +60,9 @@ body {
   max-height: 66.6vw;
   margin: auto;
   background-color: #0002;
+  background-image: url('./img/vid-img.png');
+  /* background-position: (0, 0); */
+  background-position: center;
+  background-size: 120%;
+
 }
