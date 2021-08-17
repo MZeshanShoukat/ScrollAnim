@@ -59,6 +59,7 @@ body {
 
 #custom-anim .continent {
   position: absolute;
+  transition: 0.1s;
 }
 #cont-section {
   position: absolute;
