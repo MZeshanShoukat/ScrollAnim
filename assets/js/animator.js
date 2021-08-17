@@ -11,6 +11,7 @@ let putState = (state) => {
 
 $(document).ready(function(){
   putState(origin_state);
+
   $(document).scroll(function(){
     // var x = $(document).scrollTop();
     // $('#c1p1').css("transform", `translate(${(x/52) - 20}px, ${-x/30 - 50}px) rotate(${-x/500}deg)`);

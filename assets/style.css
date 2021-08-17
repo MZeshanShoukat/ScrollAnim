@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+
+
+/* custom font families */
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('font/TTFirsNeue-Italic.eot');
+  src: local('font/TT Firs Neue Italic'), local('font/TTFirsNeue-Italic'),
+      url('font/TTFirsNeue-Italic.eot?#iefix') format('embedded-opentype'),
+      url('font/TTFirsNeue-Italic.woff2') format('woff2'),
+      url('font/TTFirsNeue-Italic.woff') format('woff'),
+      url('font/TTFirsNeue-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
 body {
   background-color: #FF7067;
   height: 6000px;
@@ -15,8 +31,12 @@ body {
   height: 100vh;
 }
 #custom-anim p {
+  font-family: 'TT Firs Neue';
   position: absolute;
-  top: 40vh;
+  top: 26vh;
+  font-size: 36px;
+  font-weight: bold;
+  color: #051566;
   left: 0;
   right: 0;
   text-align: center;
