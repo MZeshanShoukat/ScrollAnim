@@ -1,107 +1,107 @@
 let origin_state = [
   {
     id: "c1p1",
-    x: '27%',
-    y: '20%',
-    width: '20%',
-    rotate: '-6deg'
+    x: '43%',
+    y: '47%',
+    width: '21%',
+    rotate: '1deg'
   },
   {
     id: "c1p2",
-    x: '22%',
-    y: '20%',
-    width: '8%',
-    rotate: '-12deg'
+    x: '38.2%',
+    y: '44%',
+    width: '10%',
+    rotate: '-5deg'
   },
   {
     id: "c1p3",
-    x: '26%',
-    y: '23%',
-    width: '4%',
-    rotate: '10deg'
+    x: '41.5%',
+    y: '49%',
+    width: '5%',
+    rotate: '4deg'
   },
   {
     id: "c1p4",
-    x: '24.38%',
-    y: '23%',
-    width: '4%',
-    rotate: '-16deg'
+    x: '40%',
+    y: '50%',
+    width: '6%',
+    rotate: '0deg'
   },
   {
     id: "c1p5",
-    x: '20%',
-    y: '21%',
+    x: '38%',
+    y: '47.2%',
     width: '2%',
     rotate: '-42deg'
   },
   {
     id: "c1p6",
-    x: '20.5%',
-    y: '23%',
-    width: '5%',
-    rotate: '-13deg'
+    x: '36%',
+    y: '49%',
+    width: '6%',
+    rotate: '1deg'
   },
   {
     id: "c1p7",
-    x: '16%',
-    y: '22%',
+    x: '35%',
+    y: '44%',
     width: '4%',
-    rotate: '0deg'
+    rotate: '-48deg'
   },
   {
     id: "c1p8",
-    x: '16%',
-    y: '23.2%',
+    x: '27%',
+    y: '42%',
     width: '5%',
-    rotate: '-56deg'
+    rotate: '-32deg'
   },
   {
     id: "c1p9",
-    x: '8%',
-    y: '24.5%',
-    width: '20%',
+    x: '14%',
+    y: '42%',
+    width: '28%',
     rotate: '-32deg'
   },
   {
     id: "c1pp10",
-    x: '46%',
-    y: '24%',
+    x: '63%',
+    y: '54%',
     width: '4%',
-    rotate: '-4deg'
+    rotate: '-22deg'
   },
   {
     id: "c1ppp10",
-    x: '47%',
-    y: '22%',
+    x: '64%',
+    y: '52%',
     width: '2%',
     rotate: '0deg'
   },
   {
     id: "c5p1",
-    x: '33%',
-    y: '27%',
-    width: '28%',
+    x: '43%',
+    y: '58%',
+    width: '38%',
     rotate: '0deg'
   },
   {
     id: "c3p1",
-    x: '26%',
-    y: '27%',
-    width: '10%',
-    rotate: '-16deg'
+    x: '36%',
+    y: '61%',
+    width: '18%',
+    rotate: '-22deg'
   },
   {
     id: "c2p1",
-    x: '20%',
-    y: '37%',
-    width: '16%',
-    rotate: '0deg'
+    x: '25%',
+    y: '77%',
+    width: '22%',
+    rotate: '-4deg'
   },
   {
     id: "c4p1",
-    x: '36%',
-    y: '33%',
-    width: '25%',
-    rotate: '0deg'
+    x: '50%',
+    y: '69%',
+    width: '38%',
+    rotate: '-33deg'
   },
 ];
