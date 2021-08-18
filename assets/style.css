@@ -1,12 +1,11 @@
+/* Globals */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-
-/* custom font families */
+/* Custom Fonts */
 @font-face {
   font-family: 'TT Firs Neue';
   src: url('font/TTFirsNeue-Italic.eot');
@@ -19,28 +18,45 @@
   font-style: italic;
 }
 
-
 body {
   background-color: #FF7067;
   height: 6000px;
 }
 
+/*  */
 #custom-anim {
   position: fixed;
   width: 100vw;
   height: 100vh;
 }
+
 #custom-anim p {
   font-family: 'TT Firs Neue';
   position: absolute;
-  top: 26vh;
+  top: 36vh;
   font-size: 36px;
   font-weight: bold;
   color: #051566;
+  z-index: 99;
   left: 0;
   right: 0;
   text-align: center;
 }
+
+#custom-anim #wrd2 {
+  top: 44vh;
+  letter-spacing: 10px;
+  font-size: 65px;
+  color: #fff;
+}
+
+#custom-anim #wrd3 {
+  top: 58vh;
+  letter-spacing: 10px;
+  font-size: 65px;
+  color: #fff;
+}
+
 #custom-anim .continent {
   position: absolute;
 }
@@ -49,7 +65,6 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  /* background-color: #123;; */
 }
 #cont-wrapper {
   position: relative;
@@ -59,10 +74,17 @@ body {
   height: 100vh;
   max-height: 66.6vw;
   margin: auto;
-  background-color: #0002;
-  background-image: url('./img/start-ss.png');
-  /* background-position: (0, 0); */
-  background-position: center;
-  background-size: 120%;
+}
 
+/* Visibility */
+#wrd2{
+  font-weight: thin;
+}
+#cont-section, #wrd2, #wrd3p1, #wrd3p2{
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#cont-section.visible, #wrd2.visible, #wrd3p1.visible, #wrd3p2.visible{
+  opacity: 1;
 }
